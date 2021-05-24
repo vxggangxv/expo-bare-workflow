@@ -36,16 +36,16 @@ class AppErrorBoundary extends React.Component {
     // if (ENV_MODE_PROD) axios.post(endPoint.post_error_meesage, errorData);
   }
 
-  componentDidMount() {
-    console.log('isDevMode?', process.env.NODE_ENV === 'development');
-  }
+  // componentDidMount() {
+  //   console.log('isDevMode?', process.env.NODE_ENV === 'development');
+  // }
 
   render() {
     // console.log(this.state.error, 'this.state.error');
     const { hasError, error, errorInfo } = this.state;
     // console.log('hasError', hasError);
-    console.log('error', error);
-    console.log('errorInfo', errorInfo);
+    // console.log('error', error);
+    // console.log('errorInfo', errorInfo);
 
     if (hasError) {
       // Error path
