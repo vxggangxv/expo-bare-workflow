@@ -1,4 +1,4 @@
-# react-native 
+# react-native-boilerplate
 - (Ceate React Native App, expo bare-workflow)
 - with recoil, @apollo/client
 - expo with expo --template bare-minumum
